@@ -1,0 +1,22 @@
+.term-holder {
+    position:sticky;
+    display: grid;
+    margin-left: 550px;
+    margin-right: 30px;
+    position: relative;
+    justify-items: center;
+    border: 3px solid black;
+}
+
+.term {
+    text-align: center;
+    list-style: none;
+
+}
+
+li:hover {
+    cursor: pointer;
+    color: green;
+    background-color: aliceblue;
+} 
+

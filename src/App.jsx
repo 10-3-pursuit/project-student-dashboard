@@ -1,10 +1,24 @@
+import { Header } from "./Header";
+import { CardListing } from "./CardListing";
+import { Aside } from "./aside";
+import { Route, Routes } from "react-router-dom";
+import { StudentShow } from "./StudentShow";
 
 function App() {
   return (
     <div>
-      <h1>Student Dashboard</h1>
+      <Header />
+      <Aside />
+      <Routes>
+        <Route path="/" element={<CardListing />} />
+        {/* Make an about.jsx component */}
+        {/* <Route path="/about" element= {<About />}/> */}
+        <Route path="/student/:id" element={<StudentShow />} />
+      </Routes>
     </div>
   );
 }
 
 export default App;
+
+
