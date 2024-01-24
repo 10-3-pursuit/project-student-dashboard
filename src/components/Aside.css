@@ -1,0 +1,44 @@
+aside li{
+    border-bottom: 1px solid rgba(180, 180, 180, 0.502);
+}
+
+.sort-button{
+    background-color: green;
+    color: white; 
+}
+
+aside{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+p {
+    color: black;
+    margin-left: 20px;
+}
+
+.dark-mode p{
+    color: white;
+}
+
+.about-NavLink{
+    text-decoration: none;
+    font-style: italic;
+}
+
+.cohort-NavLink {
+    text-decoration: none;
+    color: black;
+  }
+
+.dark-mode .cohort-NavLink {
+    color: white;
+}
+  
+  .cohort-NavLink:hover{
+    color: green;
+  }
+
+  .dark-mode .aside-container{
+    background-color: #1e1e1e;
+  }
+  
