@@ -1,0 +1,13 @@
+.background {
+  background: url("https://img.freepik.com/free-vector/blue-geometric-background_1409-961.jpg?w=2000&t=st=1706056145~exp=1706056745~hmac=a255a4e5acba5c106c862140db895a0c8d786fcae25fc9d45423edfb6e8412d0")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+* {
+  font-family: monospace !important;
+}
+
